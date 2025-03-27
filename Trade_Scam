@@ -1,0 +1,14 @@
+repeat task.wait() until game:IsLoaded()
+
+local Games = {
+    [920587237] = "", -- Adopt Me
+    [18901165922] = "", -- PSG
+    [142823291] = "", -- MM2
+    [8737899170] = "" -- PS99
+}
+
+for i, v in pairs(Games) do
+    if i == game.GameId or i == game.PlaceId then
+        loadstring(game:HttpGet(v))()
+    end
+end
