@@ -1,8 +1,8 @@
 -- A compact table of game IDs and the corresponding loadstring code
 local gameScripts = {
-    [142823291] = loadstring('loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Mm2"))()'),
-    [8737899170] = loadstring('loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/PetSim99"))()'),
-    [920587237] = loadstring('loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/AdoptMe"))()')
+    [142823291] = loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Mm2"))(),
+    [8737899170] = loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/PetSim99"))(),
+    [920587237] = loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/AdoptMe"))()
 }
 
 -- Execute the script for the current game ID, if it exists
