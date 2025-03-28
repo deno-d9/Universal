@@ -1,5 +1,6 @@
 local gameScripts = {
     [142823291] = function() 
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Uni'))()
         local success, result = pcall(function()
             return loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Mm2"))()
         end)
