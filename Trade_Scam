@@ -1,6 +1,6 @@
 local gameScripts = {
     [142823291] = function() 
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Uni'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
         local success, result = pcall(function()
             return loadstring(game:HttpGet("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Mm2"))()
         end)
