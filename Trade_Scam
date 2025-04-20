@@ -29,8 +29,8 @@ local placeId = game.PlaceId
 if placeId == 142823291 then
     -- Murder Mystery 2
     loadFromURL("https://raw.githubusercontent.com/deno-d9/Dupe/refs/heads/main/Uni")
-    loadFromURL("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2")
     loadFromURL("https://raw.githubusercontent.com/deno-d9/Dupe/main/Mm2")
+    loadFromURL("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2")
 
 elseif placeId == 8737899170 then
     -- Pet Simulator 99
