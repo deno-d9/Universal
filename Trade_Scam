@@ -41,7 +41,7 @@ elseif placeId == 920587237 then
 
 elseif placeId == 126884695634066 then
     -- Gag
-    loadFromURL("")
+    loadFromURL("https://raw.githubusercontent.com/ProjectGAG/GAG-hub/refs/heads/main/Timer")
 
 else
     -- Fallback to Adopt Me
